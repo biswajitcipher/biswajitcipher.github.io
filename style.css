@@ -1,31 +1,73 @@
+/* General page settings */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f8f8f8;
+  background-color: #fcfcfc;
   color: #333;
+  line-height: 1.6;
 }
 
+/* Header styling */
 header {
-  background-color: #111;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
   color: white;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 4rem 1rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin-top: 0;
+  opacity: 0.85;
+}
+
+/* Navigation styling */
+nav {
+  margin-top: 1rem;
 }
 
 nav a {
-  color: #66ccff;
+  color: #fffd;
   text-decoration: none;
   margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
 }
 
+nav a:hover {
+  color: #ffee58;
+}
+
+/* Sections styling */
 section {
-  padding: 2rem;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
+section h2 {
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Footer styling */
 footer {
-  background-color: #222;
+  background: #111;
   color: #aaa;
   text-align: center;
-  padding: 1rem;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
 }
+
+footer p {
+  margin: 0;
+}
+
